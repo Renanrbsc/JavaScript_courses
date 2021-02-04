@@ -36,11 +36,11 @@ carro["portas"] = 2;
 
 /////////////////////// Funçoes
 
-function functionFirst(){
+let functionFirst = function(valor1, valor2){
     // make something 
-    return alert("Sou uma função!");
+    console.log(valor1 + valor2);
 };
 
-function functionSecond(){
-    return functionFirst();
+function functionSecond(valor1, valor2){
+    alert(valor1 + valor2);
 };
